@@ -6,35 +6,36 @@
 
 | Total Problems | Topics |
 |---|---|
-| 148 | 23 |
+| 162 | 24 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [*special](#special) (1)
-- [binary search](#binary-search) (3)
-- [brute force](#brute-force) (14)
-- [combinatorics](#combinatorics) (2)
+- [binary search](#binary-search) (5)
+- [brute force](#brute-force) (17)
+- [combinatorics](#combinatorics) (3)
 - [constructive algorithms](#constructive-algorithms) (10)
 - [data structures](#data-structures) (3)
 - [dfs and similar](#dfs-and-similar) (5)
-- [dp](#dp) (5)
-- [expression parsing](#expression-parsing) (1)
+- [dp](#dp) (7)
+- [expression parsing](#expression-parsing) (2)
 - [games](#games) (1)
 - [graph matchings](#graph-matchings) (2)
 - [graphs](#graphs) (4)
-- [greedy](#greedy) (33)
+- [greedy](#greedy) (35)
 - [hashing](#hashing) (3)
-- [implementation](#implementation) (96)
-- [math](#math) (47)
+- [implementation](#implementation) (105)
+- [math](#math) (49)
 - [number theory](#number-theory) (8)
 - [probabilities](#probabilities) (1)
+- [schedules](#schedules) (1)
 - [shortest paths](#shortest-paths) (3)
-- [sortings](#sortings) (16)
+- [sortings](#sortings) (19)
 - [strings](#strings) (18)
 - [trees](#trees) (1)
-- [two pointers](#two-pointers) (3)
+- [two pointers](#two-pointers) (4)
 
 ---
 
@@ -50,7 +51,9 @@
 |---|---------|------------|----------|
 | 166A | [Rank List](https://codeforces.com/contest/166/problem/A) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/166/A%20-%20Rank%20List/solution.cpp) |
 | 230B | [T-primes](https://codeforces.com/contest/230/problem/B) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/230/B%20-%20T-primes/solution.cpp) |
+| 279B | [Books](https://codeforces.com/contest/279/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/279/B%20-%20Books/solution.cpp) |
 | 1352C | [K-th Not Divisible by n](https://codeforces.com/contest/1352/problem/C) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/1352/C%20-%20K-th%20Not%20Divisible%20by%20n/solution.cpp) |
+| 2197A | [Friendly Numbers](https://codeforces.com/contest/2197/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/2197/A%20-%20Friendly%20Numbers/solution.cpp) |
 
 ### brute force
 
@@ -61,6 +64,8 @@
 | 231A | [Team](https://codeforces.com/contest/231/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/231/A%20-%20Team/solution.cpp) |
 | 236A | [Boy or Girl](https://codeforces.com/contest/236/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/236/A%20-%20Boy%20or%20Girl/solution.cpp) |
 | 268A | [Games](https://codeforces.com/contest/268/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/268/A%20-%20Games/solution.cpp) |
+| 279B | [Books](https://codeforces.com/contest/279/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/279/B%20-%20Books/solution.cpp) |
+| 363B | [Fence](https://codeforces.com/contest/363/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/363/B%20-%20Fence/solution.cpp) |
 | 479A | [Expression](https://codeforces.com/contest/479/problem/A) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/479/A%20-%20Expression/solution.cpp) |
 | 546A | [Soldier and Bananas](https://codeforces.com/contest/546/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/546/A%20-%20Soldier%20and%20Bananas/solution.cpp) |
 | 550A | [Two Substrings](https://codeforces.com/contest/550/problem/A) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/550/A%20-%20Two%20Substrings/solution.cpp) |
@@ -70,6 +75,7 @@
 | 1399C | [Boats Competition](https://codeforces.com/contest/1399/problem/C) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/1399/C%20-%20Boats%20Competition/solution.cpp) |
 | 2131E | [Adjacent XOR](https://codeforces.com/contest/2131/problem/E) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/2131/E%20-%20Adjacent%20XOR/solution.cpp) |
 | 2193A | [DBMB and the Array](https://codeforces.com/contest/2193/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/2193/A%20-%20DBMB%20and%20the%20Array/solution.cpp) |
+| 2197A | [Friendly Numbers](https://codeforces.com/contest/2197/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/2197/A%20-%20Friendly%20Numbers/solution.cpp) |
 
 ### combinatorics
 
@@ -77,6 +83,7 @@
 |---|---------|------------|----------|
 | 131C | [The World is a Theatre](https://codeforces.com/contest/131/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/131/C%20-%20The%20World%20is%20a%20Theatre/solution.cpp) |
 | 459B | [Pashmak and Flowers](https://codeforces.com/contest/459/problem/B) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/459/B%20-%20Pashmak%20and%20Flowers/solution.cpp) |
+| 617B | [Chocolate](https://codeforces.com/contest/617/problem/B) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/617/B%20-%20Chocolate/solution.cpp) |
 
 ### constructive algorithms
 
@@ -116,6 +123,8 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 313B | [Ilya and Queries](https://codeforces.com/contest/313/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/313/B%20-%20Ilya%20and%20Queries/solution.cpp) |
+| 363B | [Fence](https://codeforces.com/contest/363/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/363/B%20-%20Fence/solution.cpp) |
+| 433B | [Kuriyama Mirai's Stones](https://codeforces.com/contest/433/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/433/B%20-%20Kuriyama%20Mirai's%20Stones/solution.cpp) |
 | 489B | [BerSU Ball](https://codeforces.com/contest/489/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/489/B%20-%20BerSU%20Ball/solution.cpp) |
 | 550A | [Two Substrings](https://codeforces.com/contest/550/problem/A) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/550/A%20-%20Two%20Substrings/solution.cpp) |
 | 996A | [Hit the Lottery](https://codeforces.com/contest/996/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/996/A%20-%20Hit%20the%20Lottery/solution.cpp) |
@@ -126,6 +135,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 32B | [Borze](https://codeforces.com/contest/32/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/32/B%20-%20Borze/solution.cpp) |
+| 2197A | [Friendly Numbers](https://codeforces.com/contest/2197/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/2197/A%20-%20Friendly%20Numbers/solution.cpp) |
 
 ### games
 
@@ -153,11 +163,13 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 26B | [Regular Bracket Sequence](https://codeforces.com/contest/26/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/26/B%20-%20Regular%20Bracket%20Sequence/solution.cpp) |
 | 34B | [Sale](https://codeforces.com/contest/34/problem/B) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/34/B%20-%20Sale/solution.cpp) |
 | 50A | [Domino piling](https://codeforces.com/contest/50/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/50/A%20-%20Domino%20piling/solution.cpp) |
 | 58A | [Chat room](https://codeforces.com/contest/58/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/58/A%20-%20Chat%20room/solution.cpp) |
 | 149A | [Business trip](https://codeforces.com/contest/149/problem/A) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/149/A%20-%20Business%20trip/solution.cpp) |
 | 160A | [Twins](https://codeforces.com/contest/160/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/160/A%20-%20Twins/solution.cpp) |
+| 215B | [Olympic Medal](https://codeforces.com/contest/215/problem/B) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/215/B%20-%20Olympic%20Medal/solution.cpp) |
 | 230A | [Dragons](https://codeforces.com/contest/230/problem/A) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/230/A%20-%20Dragons/solution.cpp) |
 | 231A | [Team](https://codeforces.com/contest/231/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/231/A%20-%20Team/solution.cpp) |
 | 239A | [Two Bags of Potatoes](https://codeforces.com/contest/239/problem/A) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/239/A%20-%20Two%20Bags%20of%20Potatoes/solution.cpp) |
@@ -219,12 +231,14 @@
 | 133A | [HQ9+](https://codeforces.com/contest/133/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/133/A%20-%20HQ9%2B/solution.cpp) |
 | 136A | [Presents](https://codeforces.com/contest/136/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/136/A%20-%20Presents/solution.cpp) |
 | 139A | [Petr and Book](https://codeforces.com/contest/139/problem/A) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/139/A%20-%20Petr%20and%20Book/solution.cpp) |
+| 144B | [Meeting](https://codeforces.com/contest/144/problem/B) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/144/B%20-%20Meeting/solution.cpp) |
 | 148A | [Insomnia cure](https://codeforces.com/contest/148/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/148/A%20-%20Insomnia%20cure/solution.cpp) |
 | 149A | [Business trip](https://codeforces.com/contest/149/problem/A) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/149/A%20-%20Business%20trip/solution.cpp) |
 | 158A | [Next Round](https://codeforces.com/contest/158/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/158/A%20-%20Next%20Round/solution.cpp) |
 | 166A | [Rank List](https://codeforces.com/contest/166/problem/A) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/166/A%20-%20Rank%20List/solution.cpp) |
 | 168A | [Wizards and Demonstration](https://codeforces.com/contest/168/problem/A) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/168/A%20-%20Wizards%20and%20Demonstration/solution.cpp) |
 | 200B | [Drinks](https://codeforces.com/contest/200/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/200/B%20-%20Drinks/solution.cpp) |
+| 218B | [Airport](https://codeforces.com/contest/218/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/218/B%20-%20Airport/solution.cpp) |
 | 220A | [Little Elephant and Problem](https://codeforces.com/contest/220/problem/A) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/220/A%20-%20Little%20Elephant%20and%20Problem/solution.cpp) |
 | 227B | [Effective Approach](https://codeforces.com/contest/227/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/227/B%20-%20Effective%20Approach/solution.cpp) |
 | 228A | [Is your horseshoe on the other hoof?](https://codeforces.com/contest/228/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/228/A%20-%20Is%20your%20horseshoe%20on%20the%20other%20hoof%3F/solution.cpp) |
@@ -238,19 +252,24 @@
 | 265A | [Colorful Stones (Simplified Edition)](https://codeforces.com/contest/265/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/265/A%20-%20Colorful%20Stones%20(Simplified%20Edition)/solution.cpp) |
 | 266A | [Stones on the Table](https://codeforces.com/contest/266/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/266/A%20-%20Stones%20on%20the%20Table/solution.cpp) |
 | 266B | [Queue at the School](https://codeforces.com/contest/266/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/266/B%20-%20Queue%20at%20the%20School/solution.cpp) |
+| 279B | [Books](https://codeforces.com/contest/279/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/279/B%20-%20Books/solution.cpp) |
 | 281A | [Word Capitalization](https://codeforces.com/contest/281/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/281/A%20-%20Word%20Capitalization/solution.cpp) |
 | 282A | [Bit++](https://codeforces.com/contest/282/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/282/A%20-%20Bit%2B%2B/solution.cpp) |
 | 294A | [Shaass and Oskols](https://codeforces.com/contest/294/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/294/A%20-%20Shaass%20and%20Oskols/solution.cpp) |
 | 313B | [Ilya and Queries](https://codeforces.com/contest/313/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/313/B%20-%20Ilya%20and%20Queries/solution.cpp) |
 | 339A | [Helpful Maths](https://codeforces.com/contest/339/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/339/A%20-%20Helpful%20Maths/solution.cpp) |
 | 344A | [Magnets](https://codeforces.com/contest/344/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/344/A%20-%20Magnets/solution.cpp) |
+| 352B | [Jeff and Periods](https://codeforces.com/contest/352/problem/B) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/352/B%20-%20Jeff%20and%20Periods/solution.cpp) |
 | 365A | [Good Number](https://codeforces.com/contest/365/problem/A) | 1100 | [C++17 (GCC 7-32)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/365/A%20-%20Good%20Number/solution.cpp) |
+| 376B | [I.O.U.](https://codeforces.com/contest/376/problem/B) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/376/B%20-%20I.O.U./solution.cpp) |
 | 379A | [New Year Candles](https://codeforces.com/contest/379/problem/A) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/379/A%20-%20New%20Year%20Candles/solution.cpp) |
 | 381A | [Sereja and Dima](https://codeforces.com/contest/381/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/381/A%20-%20Sereja%20and%20Dima/solution.cpp) |
 | 404A | [Valera and X](https://codeforces.com/contest/404/problem/A) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/404/A%20-%20Valera%20and%20X/solution.cpp) |
 | 405A | [Gravity Flip](https://codeforces.com/contest/405/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/405/A%20-%20Gravity%20Flip/solution.cpp) |
 | 427A | [Police Recruits](https://codeforces.com/contest/427/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/427/A%20-%20Police%20Recruits/solution.cpp) |
 | 431A | [Black Square](https://codeforces.com/contest/431/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/431/A%20-%20Black%20Square/solution.cpp) |
+| 433B | [Kuriyama Mirai's Stones](https://codeforces.com/contest/433/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/433/B%20-%20Kuriyama%20Mirai's%20Stones/solution.cpp) |
+| 439B | [Devu, the Dumb Guy](https://codeforces.com/contest/439/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/439/B%20-%20Devu%2C%20the%20Dumb%20Guy/solution.cpp) |
 | 445A | [DZY Loves Chessboard](https://codeforces.com/contest/445/problem/A) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/445/A%20-%20DZY%20Loves%20Chessboard/solution.cpp) |
 | 450A | [Jzzhu and Children](https://codeforces.com/contest/450/problem/A) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/450/A%20-%20Jzzhu%20and%20Children/solution.cpp) |
 | 450B | [Jzzhu and Sequences](https://codeforces.com/contest/450/problem/B) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/450/B%20-%20Jzzhu%20and%20Sequences/solution.cpp) |
@@ -272,6 +291,7 @@
 | 567A | [Lineland Mail](https://codeforces.com/contest/567/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/567/A%20-%20Lineland%20Mail/solution.cpp) |
 | 577A | [Multiplication Table](https://codeforces.com/contest/577/problem/A) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/577/A%20-%20Multiplication%20Table/solution.cpp) |
 | 581A | [Vasya the Hipster](https://codeforces.com/contest/581/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/581/A%20-%20Vasya%20the%20Hipster/solution.cpp) |
+| 670B | [Game of Robots](https://codeforces.com/contest/670/problem/B) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/670/B%20-%20Game%20of%20Robots/solution.cpp) |
 | 677A | [Vanya and Fence](https://codeforces.com/contest/677/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/677/A%20-%20Vanya%20and%20Fence/solution.cpp) |
 | 686A | [Free Ice Cream](https://codeforces.com/contest/686/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/686/A%20-%20Free%20Ice%20Cream/solution.cpp) |
 | 705A | [Hulk](https://codeforces.com/contest/705/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/705/A%20-%20Hulk/solution.cpp) |
@@ -284,6 +304,7 @@
 | 742A | [Arpa’s hard exam and Mehrdad’s naive cheat](https://codeforces.com/contest/742/problem/A) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/742/A%20-%20Arpa%E2%80%99s%20hard%20exam%20and%20Mehrdad%E2%80%99s%20naive%20cheat/solution.cpp) |
 | 785A | [Anton and Polyhedrons](https://codeforces.com/contest/785/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/785/A%20-%20Anton%20and%20Polyhedrons/solution.cpp) |
 | 791A | [Bear and Big Brother](https://codeforces.com/contest/791/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/791/A%20-%20Bear%20and%20Big%20Brother/solution.cpp) |
+| 796B | [Find The Bone](https://codeforces.com/contest/796/problem/B) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/796/B%20-%20Find%20The%20Bone/solution.cpp) |
 | 799A | [Carrot Cakes](https://codeforces.com/contest/799/problem/A) | 1100 | [C++17 (GCC 7-32)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/799/A%20-%20Carrot%20Cakes/solution.cpp) |
 | 977A | [Wrong Subtraction](https://codeforces.com/contest/977/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/977/A%20-%20Wrong%20Subtraction/solution.cpp) |
 | 1030A | [In Search of an Easy Problem](https://codeforces.com/contest/1030/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/1030/A%20-%20In%20Search%20of%20an%20Easy%20Problem/solution.cpp) |
@@ -309,6 +330,7 @@
 | 148A | [Insomnia cure](https://codeforces.com/contest/148/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/148/A%20-%20Insomnia%20cure/solution.cpp) |
 | 168A | [Wizards and Demonstration](https://codeforces.com/contest/168/problem/A) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/168/A%20-%20Wizards%20and%20Demonstration/solution.cpp) |
 | 200B | [Drinks](https://codeforces.com/contest/200/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/200/B%20-%20Drinks/solution.cpp) |
+| 215B | [Olympic Medal](https://codeforces.com/contest/215/problem/B) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/215/B%20-%20Olympic%20Medal/solution.cpp) |
 | 230B | [T-primes](https://codeforces.com/contest/230/problem/B) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/230/B%20-%20T-primes/solution.cpp) |
 | 239A | [Two Bags of Potatoes](https://codeforces.com/contest/239/problem/A) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/239/A%20-%20Two%20Bags%20of%20Potatoes/solution.cpp) |
 | 258A | [Little Elephant and Bits](https://codeforces.com/contest/258/problem/A) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/258/A%20-%20Little%20Elephant%20and%20Bits/solution.cpp) |
@@ -347,6 +369,7 @@
 | 2193A | [DBMB and the Array](https://codeforces.com/contest/2193/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/2193/A%20-%20DBMB%20and%20the%20Array/solution.cpp) |
 | 2194A | [Lawn Mower](https://codeforces.com/contest/2194/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/2194/A%20-%20Lawn%20Mower/solution.cpp) |
 | 2194B | [Offshores](https://codeforces.com/contest/2194/problem/B) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/2194/B%20-%20Offshores/solution.cpp) |
+| 2197A | [Friendly Numbers](https://codeforces.com/contest/2197/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/2197/A%20-%20Friendly%20Numbers/solution.cpp) |
 
 ### number theory
 
@@ -366,6 +389,12 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 9A | [Die Roll](https://codeforces.com/contest/9/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/9/A%20-%20Die%20Roll/solution.cpp) |
+
+### schedules
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2197A | [Friendly Numbers](https://codeforces.com/contest/2197/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/2197/A%20-%20Friendly%20Numbers/solution.cpp) |
 
 ### shortest paths
 
@@ -387,7 +416,10 @@
 | 220A | [Little Elephant and Problem](https://codeforces.com/contest/220/problem/A) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/220/A%20-%20Little%20Elephant%20and%20Problem/solution.cpp) |
 | 230A | [Dragons](https://codeforces.com/contest/230/problem/A) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/230/A%20-%20Dragons/solution.cpp) |
 | 339A | [Helpful Maths](https://codeforces.com/contest/339/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/339/A%20-%20Helpful%20Maths/solution.cpp) |
+| 352B | [Jeff and Periods](https://codeforces.com/contest/352/problem/B) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/352/B%20-%20Jeff%20and%20Periods/solution.cpp) |
 | 405A | [Gravity Flip](https://codeforces.com/contest/405/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/405/A%20-%20Gravity%20Flip/solution.cpp) |
+| 433B | [Kuriyama Mirai's Stones](https://codeforces.com/contest/433/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/433/B%20-%20Kuriyama%20Mirai's%20Stones/solution.cpp) |
+| 439B | [Devu, the Dumb Guy](https://codeforces.com/contest/439/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/439/B%20-%20Devu%2C%20the%20Dumb%20Guy/solution.cpp) |
 | 459B | [Pashmak and Flowers](https://codeforces.com/contest/459/problem/B) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/459/B%20-%20Pashmak%20and%20Flowers/solution.cpp) |
 | 479C | [Exams](https://codeforces.com/contest/479/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/479/C%20-%20Exams/solution.cpp) |
 | 489B | [BerSU Ball](https://codeforces.com/contest/489/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/489/B%20-%20BerSU%20Ball/solution.cpp) |
@@ -429,6 +461,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 279B | [Books](https://codeforces.com/contest/279/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/279/B%20-%20Books/solution.cpp) |
 | 381A | [Sereja and Dima](https://codeforces.com/contest/381/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/381/A%20-%20Sereja%20and%20Dima/solution.cpp) |
 | 489B | [BerSU Ball](https://codeforces.com/contest/489/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/489/B%20-%20BerSU%20Ball/solution.cpp) |
 | 1399C | [Boats Competition](https://codeforces.com/contest/1399/problem/C) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/1399/C%20-%20Boats%20Competition/solution.cpp) |
