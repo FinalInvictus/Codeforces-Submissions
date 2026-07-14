@@ -1,0 +1,17 @@
+<h2><a href="https://codeforces.com/contest/520/problem/B" target="_blank" rel="noopener noreferrer">520B — Two Buttons</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 1400 |
+| **Language** | C++23 (GCC 14-64, msys2) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 520B](https://codeforces.com/contest/520/problem/B) |
+
+## Topics
+`dfs and similar` `graphs` `greedy` `implementation` `math` `shortest paths`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">B. Two Buttons</div><div class="time-limit"><div class="property-title">time limit per test</div>2 seconds</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>Vasya has found a strange device. On the front panel of a device there are: a red button, a blue button and a display showing some positive integer. After clicking the red button, device multiplies the displayed number by two. After clicking the blue button, device subtracts one from the number on the display. If at some point the number stops being positive, the device breaks down. The display can show arbitrarily large numbers. Initially, the display shows number <span class="tex-span"><i>n</i></span>.</p><p>Bob wants to get number <span class="tex-span"><i>m</i></span> on the display. What minimum number of clicks he has to make in order to achieve this result?</p></div><div class="input-specification"><div class="section-title">Input</div><p>The first and the only line of the input contains two distinct integers <span class="tex-span"><i>n</i></span> and <span class="tex-span"><i>m</i></span> (<span class="tex-span">1 ≤ <i>n</i>, <i>m</i> ≤ 10<sup class="upper-index">4</sup></span>), separated by a space .</p></div><div class="output-specification"><div class="section-title">Output</div><p>Print a single number — the minimum number of times one needs to push the button required to get the number <span class="tex-span"><i>m</i></span> out of number <span class="tex-span"><i>n</i></span>.</p></div><div class="sample-tests"><div class="section-title">Examples</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id0041885404174433827" id="id004451309679194748" class="input-output-copier">Copy</div></div><pre id="id0041885404174433827">4 6<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id006451206936637173" id="id007725804125973327" class="input-output-copier">Copy</div></div><pre id="id006451206936637173">2<br></pre></div><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id005947572304809445" id="id00028026902185535718" class="input-output-copier">Copy</div></div><pre id="id005947572304809445">10 1<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id0019494614695115287" id="id0036286713620685707" class="input-output-copier">Copy</div></div><pre id="id0019494614695115287">9<br></pre></div></div></div><div class="note"><div class="section-title">Note</div><p>In the first example you need to push the blue button once, and then push the red button once.</p><p>In the second example, doubling the number is unnecessary, so we need to push the blue button nine times.</p></div>
