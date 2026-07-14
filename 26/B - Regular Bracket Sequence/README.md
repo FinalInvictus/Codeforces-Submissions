@@ -1,0 +1,17 @@
+<h2><a href="https://codeforces.com/contest/26/problem/B" target="_blank" rel="noopener noreferrer">26B — Regular Bracket Sequence</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 1400 |
+| **Language** | C++23 (GCC 14-64, msys2) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 26B](https://codeforces.com/contest/26/problem/B) |
+
+## Topics
+`greedy`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">B. Regular Bracket Sequence</div><div class="time-limit"><div class="property-title">time limit per test</div>5 seconds</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard" style="font-weight: bold"><div class="property-title">input</div>stdin</div><div class="output-file output-standard" style="font-weight: bold"><div class="property-title">output</div>stdout</div></div><div><p>A bracket sequence is called regular if it is possible to obtain correct arithmetic expression by inserting characters «<span class="tex-font-style-tt">+</span>» and «<span class="tex-font-style-tt">1</span>» into this sequence. For example, sequences «<span class="tex-font-style-tt">(())()</span>», «<span class="tex-font-style-tt">()</span>» and «<span class="tex-font-style-tt">(()(()))</span>» are regular, while «<span class="tex-font-style-tt">)(</span>», «<span class="tex-font-style-tt">(()</span>» and «<span class="tex-font-style-tt">(()))(</span>» are not.</p><p>One day Johnny got bracket sequence. He decided to remove some of the brackets from it in order to obtain a regular bracket sequence. What is the maximum length of a regular bracket sequence which can be obtained?</p></div><div class="input-specification"><div class="section-title">Input</div><p>Input consists of a single line with non-empty string of «<span class="tex-font-style-tt">(</span>» and «<span class="tex-font-style-tt">)</span>» characters. Its length does not exceed <span class="tex-span">10<sup class="upper-index">6</sup></span>.</p></div><div class="output-specification"><div class="section-title">Output</div><p>Output the maximum possible length of a regular bracket sequence.</p></div><div class="sample-tests"><div class="section-title">Examples</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id0005140158140970197" id="id005000026395160656" class="input-output-copier">Copy</div></div><pre id="id0005140158140970197">(()))(<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id007315728670910744" id="id0012240118268659295" class="input-output-copier">Copy</div></div><pre id="id007315728670910744">4<br></pre></div><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id003812785204543552" id="id0043246526524619966" class="input-output-copier">Copy</div></div><pre id="id003812785204543552">((()())<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id00629335355270953" id="id008715199187523178" class="input-output-copier">Copy</div></div><pre id="id00629335355270953">6<br></pre></div></div></div>
