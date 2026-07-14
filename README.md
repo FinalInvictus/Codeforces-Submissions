@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 207 | 28 |
+| 209 | 28 |
 
 ---
 
@@ -28,16 +28,16 @@
 - [geometry](#geometry) (2)
 - [graph matchings](#graph-matchings) (2)
 - [graphs](#graphs) (9)
-- [greedy](#greedy) (51)
+- [greedy](#greedy) (52)
 - [hashing](#hashing) (3)
-- [implementation](#implementation) (126)
-- [math](#math) (59)
+- [implementation](#implementation) (127)
+- [math](#math) (60)
 - [number theory](#number-theory) (11)
 - [probabilities](#probabilities) (1)
 - [schedules](#schedules) (1)
 - [shortest paths](#shortest-paths) (3)
 - [sortings](#sortings) (27)
-- [strings](#strings) (19)
+- [strings](#strings) (20)
 - [trees](#trees) (2)
 - [two pointers](#two-pointers) (5)
 
@@ -251,6 +251,7 @@
 | 239A | [Two Bags of Potatoes](https://codeforces.com/contest/239/problem/A) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/239/A%20-%20Two%20Bags%20of%20Potatoes/solution.cpp) |
 | 258A | [Little Elephant and Bits](https://codeforces.com/contest/258/problem/A) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/258/A%20-%20Little%20Elephant%20and%20Bits/solution.cpp) |
 | 276B | [Little Girl and Game](https://codeforces.com/contest/276/problem/B) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/276/B%20-%20Little%20Girl%20and%20Game/solution.cpp) |
+| 282B | [Painting Eggs](https://codeforces.com/contest/282/problem/B) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/282/B%20-%20Painting%20Eggs/solution.cpp) |
 | 298B | [Sail](https://codeforces.com/contest/298/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/298/B%20-%20Sail/solution.cpp) |
 | 337A | [Puzzles](https://codeforces.com/contest/337/problem/A) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/337/A%20-%20Puzzles/solution.cpp) |
 | 339A | [Helpful Maths](https://codeforces.com/contest/339/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/339/A%20-%20Helpful%20Maths/solution.cpp) |
@@ -411,6 +412,7 @@
 | 732A | [Buy a Shovel](https://codeforces.com/contest/732/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/732/A%20-%20Buy%20a%20Shovel/solution.cpp) |
 | 734A | [Anton and Danik](https://codeforces.com/contest/734/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/734/A%20-%20Anton%20and%20Danik/solution.cpp) |
 | 742A | [Arpa’s hard exam and Mehrdad’s naive cheat](https://codeforces.com/contest/742/problem/A) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/742/A%20-%20Arpa%E2%80%99s%20hard%20exam%20and%20Mehrdad%E2%80%99s%20naive%20cheat/solution.cpp) |
+| 746B | [Decoding](https://codeforces.com/contest/746/problem/B) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/746/B%20-%20Decoding/solution.cpp) |
 | 785A | [Anton and Polyhedrons](https://codeforces.com/contest/785/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/785/A%20-%20Anton%20and%20Polyhedrons/solution.cpp) |
 | 791A | [Bear and Big Brother](https://codeforces.com/contest/791/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/791/A%20-%20Bear%20and%20Big%20Brother/solution.cpp) |
 | 796B | [Find The Bone](https://codeforces.com/contest/796/problem/B) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/796/B%20-%20Find%20The%20Bone/solution.cpp) |
@@ -448,6 +450,7 @@
 | 239A | [Two Bags of Potatoes](https://codeforces.com/contest/239/problem/A) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/239/A%20-%20Two%20Bags%20of%20Potatoes/solution.cpp) |
 | 258A | [Little Elephant and Bits](https://codeforces.com/contest/258/problem/A) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/258/A%20-%20Little%20Elephant%20and%20Bits/solution.cpp) |
 | 260A | [Adding Digits](https://codeforces.com/contest/260/problem/A) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/260/A%20-%20Adding%20Digits/solution.cpp) |
+| 282B | [Painting Eggs](https://codeforces.com/contest/282/problem/B) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/282/B%20-%20Painting%20Eggs/solution.cpp) |
 | 294A | [Shaass and Oskols](https://codeforces.com/contest/294/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/294/A%20-%20Shaass%20and%20Oskols/solution.cpp) |
 | 318A | [Even Odds](https://codeforces.com/contest/318/problem/A) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/318/A%20-%20Even%20Odds/solution.cpp) |
 | 371B | [Fox Dividing Cheese](https://codeforces.com/contest/371/problem/B) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/371/B%20-%20Fox%20Dividing%20Cheese/solution.cpp) |
@@ -578,6 +581,7 @@
 | 550A | [Two Substrings](https://codeforces.com/contest/550/problem/A) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/550/A%20-%20Two%20Substrings/solution.cpp) |
 | 731A | [Night at the Museum](https://codeforces.com/contest/731/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/731/A%20-%20Night%20at%20the%20Museum/solution.cpp) |
 | 734A | [Anton and Danik](https://codeforces.com/contest/734/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/734/A%20-%20Anton%20and%20Danik/solution.cpp) |
+| 746B | [Decoding](https://codeforces.com/contest/746/problem/B) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/746/B%20-%20Decoding/solution.cpp) |
 | 785A | [Anton and Polyhedrons](https://codeforces.com/contest/785/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/785/A%20-%20Anton%20and%20Polyhedrons/solution.cpp) |
 | 1850C | [Word on the Paper](https://codeforces.com/contest/1850/problem/C) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/1850/C%20-%20Word%20on%20the%20Paper/solution.cpp) |
 | 2072B | [Having Been a Treasurer in the Past, I Help Goblins Deceive](https://codeforces.com/contest/2072/problem/B) | 900 | [C++20 (GCC 13-64)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/2072/B%20-%20Having%20Been%20a%20Treasurer%20in%20the%20Past%2C%20I%20Help%20Goblins%20Deceive/solution.cpp) |
