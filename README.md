@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 221 | 28 |
+| 222 | 28 |
 
 ---
 
@@ -16,7 +16,7 @@
 - [Uncategorized](#uncategorized) (7)
 - [binary search](#binary-search) (12)
 - [bitmasks](#bitmasks) (1)
-- [brute force](#brute-force) (25)
+- [brute force](#brute-force) (26)
 - [combinatorics](#combinatorics) (4)
 - [constructive algorithms](#constructive-algorithms) (17)
 - [data structures](#data-structures) (5)
@@ -96,6 +96,7 @@
 | 231A | [Team](https://codeforces.com/contest/231/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/231/A%20-%20Team/solution.cpp) |
 | 236A | [Boy or Girl](https://codeforces.com/contest/236/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/236/A%20-%20Boy%20or%20Girl/solution.cpp) |
 | 268A | [Games](https://codeforces.com/contest/268/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/268/A%20-%20Games/solution.cpp) |
+| 271A | [Beautiful Year](https://codeforces.com/contest/271/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/271/A%20-%20Beautiful%20Year/solution.cpp) |
 | 279B | [Books](https://codeforces.com/contest/279/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/279/B%20-%20Books/solution.cpp) |
 | 298B | [Sail](https://codeforces.com/contest/298/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/298/B%20-%20Sail/solution.cpp) |
 | 357A | [Group of Students](https://codeforces.com/contest/357/problem/A) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/357/A%20-%20Group%20of%20Students/solution.cpp) |
