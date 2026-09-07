@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 223 | 28 |
+| 224 | 28 |
 
 ---
 
@@ -14,11 +14,11 @@
 
 - [*special](#special) (1)
 - [Uncategorized](#uncategorized) (7)
-- [binary search](#binary-search) (12)
+- [binary search](#binary-search) (13)
 - [bitmasks](#bitmasks) (1)
-- [brute force](#brute-force) (26)
+- [brute force](#brute-force) (27)
 - [combinatorics](#combinatorics) (4)
-- [constructive algorithms](#constructive-algorithms) (18)
+- [constructive algorithms](#constructive-algorithms) (19)
 - [data structures](#data-structures) (5)
 - [dfs and similar](#dfs-and-similar) (11)
 - [dp](#dp) (12)
@@ -28,7 +28,7 @@
 - [geometry](#geometry) (3)
 - [graph matchings](#graph-matchings) (2)
 - [graphs](#graphs) (9)
-- [greedy](#greedy) (59)
+- [greedy](#greedy) (60)
 - [hashing](#hashing) (3)
 - [implementation](#implementation) (131)
 - [math](#math) (64)
@@ -76,6 +76,7 @@
 | 600B | [Queries about less or equal elements](https://codeforces.com/contest/600/problem/B) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/600/B%20-%20Queries%20about%20less%20or%20equal%20elements/solution.cpp) |
 | 706B | [Interesting drink](https://codeforces.com/contest/706/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/706/B%20-%20Interesting%20drink/solution.cpp) |
 | 1352C | [K-th Not Divisible by n](https://codeforces.com/contest/1352/problem/C) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/1352/C%20-%20K-th%20Not%20Divisible%20by%20n/solution.cpp) |
+| 2026B | [Black Cells](https://codeforces.com/contest/2026/problem/B) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/2026/B%20-%20Black%20Cells/solution.cpp) |
 | 2197A | [Friendly Numbers](https://codeforces.com/contest/2197/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/2197/A%20-%20Friendly%20Numbers/solution.cpp) |
 
 ### bitmasks
@@ -111,6 +112,7 @@
 | 1399C | [Boats Competition](https://codeforces.com/contest/1399/problem/C) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/1399/C%20-%20Boats%20Competition/solution.cpp) |
 | 1903A | [Halloumi Boxes](https://codeforces.com/contest/1903/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/1903/A%20-%20Halloumi%20Boxes/solution.cpp) |
 | 1914D | [Three Activities](https://codeforces.com/contest/1914/problem/D) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/1914/D%20-%20Three%20Activities/solution.cpp) |
+| 2026B | [Black Cells](https://codeforces.com/contest/2026/problem/B) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/2026/B%20-%20Black%20Cells/solution.cpp) |
 | 2131E | [Adjacent XOR](https://codeforces.com/contest/2131/problem/E) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/2131/E%20-%20Adjacent%20XOR/solution.cpp) |
 | 2193A | [DBMB and the Array](https://codeforces.com/contest/2193/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/2193/A%20-%20DBMB%20and%20the%20Array/solution.cpp) |
 | 2197A | [Friendly Numbers](https://codeforces.com/contest/2197/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/2197/A%20-%20Friendly%20Numbers/solution.cpp) |
@@ -142,6 +144,7 @@
 | 768A | [Oath of the Night's Watch](https://codeforces.com/contest/768/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/768/A%20-%20Oath%20of%20the%20Night's%20Watch/solution.cpp) |
 | 1253D | [Harmonious Graph](https://codeforces.com/contest/1253/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/1253/D%20-%20Harmonious%20Graph/solution.cpp) |
 | 2026A | [Perpendicular Segments](https://codeforces.com/contest/2026/problem/A) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/2026/A%20-%20Perpendicular%20Segments/solution.cpp) |
+| 2026B | [Black Cells](https://codeforces.com/contest/2026/problem/B) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/2026/B%20-%20Black%20Cells/solution.cpp) |
 | 2072B | [Having Been a Treasurer in the Past, I Help Goblins Deceive](https://codeforces.com/contest/2072/problem/B) | 900 | [C++20 (GCC 13-64)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/2072/B%20-%20Having%20Been%20a%20Treasurer%20in%20the%20Past%2C%20I%20Help%20Goblins%20Deceive/solution.cpp) |
 | 2072C | [Creating Keys for StORages Has Become My Main Skill](https://codeforces.com/contest/2072/problem/C) | 1200 | [Java 21](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/2072/C%20-%20Creating%20Keys%20for%20StORages%20Has%20Become%20My%20Main%20Skill/solution.java) |
 | 2185A | [Perfect Root](https://codeforces.com/contest/2185/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/2185/A%20-%20Perfect%20Root/solution.cpp) |
@@ -294,6 +297,7 @@
 | 1903A | [Halloumi Boxes](https://codeforces.com/contest/1903/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/1903/A%20-%20Halloumi%20Boxes/solution.cpp) |
 | 1914D | [Three Activities](https://codeforces.com/contest/1914/problem/D) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/1914/D%20-%20Three%20Activities/solution.cpp) |
 | 2026A | [Perpendicular Segments](https://codeforces.com/contest/2026/problem/A) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/2026/A%20-%20Perpendicular%20Segments/solution.cpp) |
+| 2026B | [Black Cells](https://codeforces.com/contest/2026/problem/B) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/2026/B%20-%20Black%20Cells/solution.cpp) |
 | 2042A | [Greedy Monocarp](https://codeforces.com/contest/2042/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/2042/A%20-%20Greedy%20Monocarp/solution.cpp) |
 | 2042B | [Game with Colored Marbles](https://codeforces.com/contest/2042/problem/B) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/2042/B%20-%20Game%20with%20Colored%20Marbles/solution.cpp) |
 | 2042C | [Competitive Fishing](https://codeforces.com/contest/2042/problem/C) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/2042/C%20-%20Competitive%20Fishing/solution.cpp) |
