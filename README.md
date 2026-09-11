@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 225 | 28 |
+| 226 | 28 |
 
 ---
 
@@ -18,9 +18,9 @@
 - [bitmasks](#bitmasks) (1)
 - [brute force](#brute-force) (28)
 - [combinatorics](#combinatorics) (4)
-- [constructive algorithms](#constructive-algorithms) (19)
+- [constructive algorithms](#constructive-algorithms) (20)
 - [data structures](#data-structures) (5)
-- [dfs and similar](#dfs-and-similar) (11)
+- [dfs and similar](#dfs-and-similar) (12)
 - [dp](#dp) (12)
 - [dsu](#dsu) (4)
 - [expression parsing](#expression-parsing) (2)
@@ -144,6 +144,7 @@
 | 732A | [Buy a Shovel](https://codeforces.com/contest/732/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/732/A%20-%20Buy%20a%20Shovel/solution.cpp) |
 | 768A | [Oath of the Night's Watch](https://codeforces.com/contest/768/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/768/A%20-%20Oath%20of%20the%20Night's%20Watch/solution.cpp) |
 | 1253D | [Harmonious Graph](https://codeforces.com/contest/1253/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/1253/D%20-%20Harmonious%20Graph/solution.cpp) |
+| 1433D | [Districts Connection](https://codeforces.com/contest/1433/problem/D) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/1433/D%20-%20Districts%20Connection/solution.cpp) |
 | 2026A | [Perpendicular Segments](https://codeforces.com/contest/2026/problem/A) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/2026/A%20-%20Perpendicular%20Segments/solution.cpp) |
 | 2026B | [Black Cells](https://codeforces.com/contest/2026/problem/B) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/2026/B%20-%20Black%20Cells/solution.cpp) |
 | 2072B | [Having Been a Treasurer in the Past, I Help Goblins Deceive](https://codeforces.com/contest/2072/problem/B) | 900 | [C++20 (GCC 13-64)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/2072/B%20-%20Having%20Been%20a%20Treasurer%20in%20the%20Past%2C%20I%20Help%20Goblins%20Deceive/solution.cpp) |
@@ -176,6 +177,7 @@
 | 893C | [Rumor](https://codeforces.com/contest/893/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/893/C%20-%20Rumor/solution.cpp) |
 | 977E | [Cyclic Components](https://codeforces.com/contest/977/problem/E) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/977/E%20-%20Cyclic%20Components/solution.cpp) |
 | 1253D | [Harmonious Graph](https://codeforces.com/contest/1253/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/1253/D%20-%20Harmonious%20Graph/solution.cpp) |
+| 1433D | [Districts Connection](https://codeforces.com/contest/1433/problem/D) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/FinalInvictus/Codeforces-Submissions/blob/HEAD/1433/D%20-%20Districts%20Connection/solution.cpp) |
 
 ### dp
 
