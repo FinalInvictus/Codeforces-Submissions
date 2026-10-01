@@ -11,29 +11,34 @@ void solve() {
     vector<int> a(n);
     for (int i=0;i<n;++i)
         cin>>a[i];
-    int x =NULL;
+    unordered_set<int> c;
     vector<pair<int,int>> ans;
+    int ref = a[0];
+    int index = 0;
     for (int i=1;i<n;++i) {
-        if (a[0]!=a[i]) {
-            x = i;
+        c.insert(a[i]);
+        if (a[i] != ref) {
             ans.push_back({1,i+1});
+            index = i+1;
         }
     }
-    for (int i=1;i<n;++i)
-        if (a[0]==a[i]) {
-            ans.push_back({x+1,i+1});
+    for (int i=1;i<n;++i) {
+        if (a[i]==ref) {
+            ans.push_back({index,i+1});
         }
-    if (x==NULL)
+    }
+    if (index==0)
         cout<<"NO"<<'
 ';
     else {
         cout<<"YES"<<'
 ';
-        for (auto &i:ans) {
-            cout<<i.first<<' '<<i.second<<'
+        for (auto &x:ans) {
+            cout<<x.first<<' '<<x.second<<'
 ';
         }
     }
+ 
  
 }
  
